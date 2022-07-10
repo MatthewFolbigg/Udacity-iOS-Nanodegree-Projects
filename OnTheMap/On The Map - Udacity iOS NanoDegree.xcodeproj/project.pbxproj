@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F10C9BC25C9944C0062ED55 /* StudentLocationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10C9BB25C9944C0062ED55 /* StudentLocationsTableViewController.swift */; };
+		1F10C9C325C996390062ED55 /* StudentLocationTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10C9C225C996390062ED55 /* StudentLocationTableCell.swift */; };
+		1F85B51025CF3B4700280886 /* ConfirmPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F85B50F25CF3B4700280886 /* ConfirmPostViewController.swift */; };
+		1F934C8B25C9B5D30062E572 /* Interface Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F934C8A25C9B5D30062E572 /* Interface Colours.swift */; };
+		1F934C8E25C9C96F0062E572 /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F934C8D25C9C96F0062E572 /* MainNavigationViewController.swift */; };
+		1FD78E9425CB3E3D00238291 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD78E9325CB3E3D00238291 /* AccountViewController.swift */; };
+		1FD78E9725CB4D9100238291 /* StudentLocationMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD78E9625CB4D9100238291 /* StudentLocationMapViewController.swift */; };
+		1FD78E9F25CC343F00238291 /* Udacity User Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD78E9E25CC343F00238291 /* Udacity User Data.swift */; };
+		1FD78EA625CD60D400238291 /* AddPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD78EA525CD60D400238291 /* AddPinViewController.swift */; };
+		1FD9FBB525C8A14800745C56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD9FBB425C8A14800745C56 /* AppDelegate.swift */; };
+		1FD9FBB725C8A14800745C56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD9FBB625C8A14800745C56 /* SceneDelegate.swift */; };
+		1FD9FBBC25C8A14800745C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD9FBBA25C8A14800745C56 /* Main.storyboard */; };
+		1FD9FBBE25C8A14900745C56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD9FBBD25C8A14900745C56 /* Assets.xcassets */; };
+		1FD9FBC125C8A14900745C56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD9FBBF25C8A14900745C56 /* LaunchScreen.storyboard */; };
+		1FD9FBCB25C8A53F00745C56 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD9FBCA25C8A53F00745C56 /* LoginViewController.swift */; };
+		1FD9FBCE25C961DC00745C56 /* ParseApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD9FBCD25C961DC00745C56 /* ParseApiClient.swift */; };
+		1FD9FBD225C967C200745C56 /* StudentLocationsResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD9FBD125C967C200745C56 /* StudentLocationsResults.swift */; };
+		1FD9FBD825C968D000745C56 /* StudentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD9FBD725C968D000745C56 /* StudentLocation.swift */; };
+		1FDDDD4025CAC2AD00B65AB0 /* MoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDDDD3F25CAC2AD00B65AB0 /* MoreDetailViewController.swift */; };
+		1FDDDD4325CACADF00B65AB0 /* UdacityApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDDDD4225CACADF00B65AB0 /* UdacityApiClient.swift */; };
+		1FDDDD4725CAD11A00B65AB0 /* UdacityUserCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDDDD4625CAD11A00B65AB0 /* UdacityUserCredentials.swift */; };
+		1FDDDD4A25CAD75400B65AB0 /* Udacity Login Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDDDD4925CAD75400B65AB0 /* Udacity Login Response.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F10C9BB25C9944C0062ED55 /* StudentLocationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocationsTableViewController.swift; sourceTree = "<group>"; };
+		1F10C9C225C996390062ED55 /* StudentLocationTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocationTableCell.swift; sourceTree = "<group>"; };
+		1F85B50F25CF3B4700280886 /* ConfirmPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPostViewController.swift; sourceTree = "<group>"; };
+		1F934C8A25C9B5D30062E572 /* Interface Colours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Interface Colours.swift"; sourceTree = "<group>"; };
+		1F934C8D25C9C96F0062E572 /* MainNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
+		1FD78E9325CB3E3D00238291 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		1FD78E9625CB4D9100238291 /* StudentLocationMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocationMapViewController.swift; sourceTree = "<group>"; };
+		1FD78E9E25CC343F00238291 /* Udacity User Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Udacity User Data.swift"; sourceTree = "<group>"; };
+		1FD78EA525CD60D400238291 /* AddPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPinViewController.swift; sourceTree = "<group>"; };
+		1FD9FBB125C8A14800745C56 /* On The Map - Udacity iOS NanoDegree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "On The Map - Udacity iOS NanoDegree.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD9FBB425C8A14800745C56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FD9FBB625C8A14800745C56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1FD9FBBB25C8A14800745C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FD9FBBD25C8A14900745C56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FD9FBC025C8A14900745C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FD9FBC225C8A14900745C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD9FBCA25C8A53F00745C56 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1FD9FBCD25C961DC00745C56 /* ParseApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseApiClient.swift; sourceTree = "<group>"; };
+		1FD9FBD125C967C200745C56 /* StudentLocationsResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocationsResults.swift; sourceTree = "<group>"; };
+		1FD9FBD725C968D000745C56 /* StudentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocation.swift; sourceTree = "<group>"; };
+		1FDDDD3F25CAC2AD00B65AB0 /* MoreDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreDetailViewController.swift; sourceTree = "<group>"; };
+		1FDDDD4225CACADF00B65AB0 /* UdacityApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdacityApiClient.swift; sourceTree = "<group>"; };
+		1FDDDD4625CAD11A00B65AB0 /* UdacityUserCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdacityUserCredentials.swift; sourceTree = "<group>"; };
+		1FDDDD4925CAD75400B65AB0 /* Udacity Login Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Udacity Login Response.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FD9FBAE25C8A14800745C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F10C9B925C993D70062ED55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1FD9FBBA25C8A14800745C56 /* Main.storyboard */,
+				1FD9FBBF25C8A14900745C56 /* LaunchScreen.storyboard */,
+				1F10C9C225C996390062ED55 /* StudentLocationTableCell.swift */,
+				1F934C8A25C9B5D30062E572 /* Interface Colours.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F10C9BE25C995E10062ED55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F934C8D25C9C96F0062E572 /* MainNavigationViewController.swift */,
+				1FD9FBCA25C8A53F00745C56 /* LoginViewController.swift */,
+				1F10C9BB25C9944C0062ED55 /* StudentLocationsTableViewController.swift */,
+				1FD78E9625CB4D9100238291 /* StudentLocationMapViewController.swift */,
+				1FD78E9325CB3E3D00238291 /* AccountViewController.swift */,
+				1FD78EA525CD60D400238291 /* AddPinViewController.swift */,
+				1F85B50F25CF3B4700280886 /* ConfirmPostViewController.swift */,
+				1FDDDD3F25CAC2AD00B65AB0 /* MoreDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1FD9FBA825C8A14800745C56 = {
+			isa = PBXGroup;
+			children = (
+				1FD9FBB325C8A14800745C56 /* On The Map - Udacity iOS NanoDegree */,
+				1FD9FBB225C8A14800745C56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FD9FBB225C8A14800745C56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FD9FBB125C8A14800745C56 /* On The Map - Udacity iOS NanoDegree.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FD9FBB325C8A14800745C56 /* On The Map - Udacity iOS NanoDegree */ = {
+			isa = PBXGroup;
+			children = (
+				1FD9FBB425C8A14800745C56 /* AppDelegate.swift */,
+				1FD9FBB625C8A14800745C56 /* SceneDelegate.swift */,
+				1F10C9BE25C995E10062ED55 /* Controller */,
+				1F10C9B925C993D70062ED55 /* View */,
+				1FD9FBD025C9676F00745C56 /* Model */,
+				1FD9FBBD25C8A14900745C56 /* Assets.xcassets */,
+				1FD9FBC225C8A14900745C56 /* Info.plist */,
+			);
+			path = "On The Map - Udacity iOS NanoDegree";
+			sourceTree = "<group>";
+		};
+		1FD9FBD025C9676F00745C56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1FD9FBCD25C961DC00745C56 /* ParseApiClient.swift */,
+				1FD9FBD425C967CB00745C56 /* Parse API Responses */,
+				1FDDDD4225CACADF00B65AB0 /* UdacityApiClient.swift */,
+				1FDDDD4C25CAD83600B65AB0 /* Udacity Responses */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1FD9FBD425C967CB00745C56 /* Parse API Responses */ = {
+			isa = PBXGroup;
+			children = (
+				1FD9FBD125C967C200745C56 /* StudentLocationsResults.swift */,
+				1FD9FBD725C968D000745C56 /* StudentLocation.swift */,
+			);
+			path = "Parse API Responses";
+			sourceTree = "<group>";
+		};
+		1FDDDD4C25CAD83600B65AB0 /* Udacity Responses */ = {
+			isa = PBXGroup;
+			children = (
+				1FDDDD4625CAD11A00B65AB0 /* UdacityUserCredentials.swift */,
+				1FDDDD4925CAD75400B65AB0 /* Udacity Login Response.swift */,
+				1FD78E9E25CC343F00238291 /* Udacity User Data.swift */,
+			);
+			path = "Udacity Responses";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FD9FBB025C8A14800745C56 /* On The Map - Udacity iOS NanoDegree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD9FBC525C8A14900745C56 /* Build configuration list for PBXNativeTarget "On The Map - Udacity iOS NanoDegree" */;
+			buildPhases = (
+				1FD9FBAD25C8A14800745C56 /* Sources */,
+				1FD9FBAE25C8A14800745C56 /* Frameworks */,
+				1FD9FBAF25C8A14800745C56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "On The Map - Udacity iOS NanoDegree";
+			productName = "On The Map - Udacity iOS NanoDegree";
+			productReference = 1FD9FBB125C8A14800745C56 /* On The Map - Udacity iOS NanoDegree.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FD9FBA925C8A14800745C56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1FD9FBB025C8A14800745C56 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 1FD9FBAC25C8A14800745C56 /* Build configuration list for PBXProject "On The Map - Udacity iOS NanoDegree" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FD9FBA825C8A14800745C56;
+			productRefGroup = 1FD9FBB225C8A14800745C56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FD9FBB025C8A14800745C56 /* On The Map - Udacity iOS NanoDegree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FD9FBAF25C8A14800745C56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD9FBC125C8A14900745C56 /* LaunchScreen.storyboard in Resources */,
+				1FD9FBBE25C8A14900745C56 /* Assets.xcassets in Resources */,
+				1FD9FBBC25C8A14800745C56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FD9FBAD25C8A14800745C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F934C8E25C9C96F0062E572 /* MainNavigationViewController.swift in Sources */,
+				1FD9FBD825C968D000745C56 /* StudentLocation.swift in Sources */,
+				1FD78E9425CB3E3D00238291 /* AccountViewController.swift in Sources */,
+				1F10C9C325C996390062ED55 /* StudentLocationTableCell.swift in Sources */,
+				1FDDDD4025CAC2AD00B65AB0 /* MoreDetailViewController.swift in Sources */,
+				1F10C9BC25C9944C0062ED55 /* StudentLocationsTableViewController.swift in Sources */,
+				1FD9FBCB25C8A53F00745C56 /* LoginViewController.swift in Sources */,
+				1FD78EA625CD60D400238291 /* AddPinViewController.swift in Sources */,
+				1FD9FBB525C8A14800745C56 /* AppDelegate.swift in Sources */,
+				1F85B51025CF3B4700280886 /* ConfirmPostViewController.swift in Sources */,
+				1FD78E9725CB4D9100238291 /* StudentLocationMapViewController.swift in Sources */,
+				1FD9FBB725C8A14800745C56 /* SceneDelegate.swift in Sources */,
+				1F934C8B25C9B5D30062E572 /* Interface Colours.swift in Sources */,
+				1FDDDD4325CACADF00B65AB0 /* UdacityApiClient.swift in Sources */,
+				1FDDDD4A25CAD75400B65AB0 /* Udacity Login Response.swift in Sources */,
+				1FD78E9F25CC343F00238291 /* Udacity User Data.swift in Sources */,
+				1FDDDD4725CAD11A00B65AB0 /* UdacityUserCredentials.swift in Sources */,
+				1FD9FBD225C967C200745C56 /* StudentLocationsResults.swift in Sources */,
+				1FD9FBCE25C961DC00745C56 /* ParseApiClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FD9FBBA25C8A14800745C56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FD9FBBB25C8A14800745C56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FD9FBBF25C8A14900745C56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FD9FBC025C8A14900745C56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FD9FBC325C8A14900745C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FD9FBC425C8A14900745C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FD9FBC625C8A14900745C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVA5U2HB2L;
+				INFOPLIST_FILE = "On The Map - Udacity iOS NanoDegree/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewfolbigg.On-The-Map---Udacity-iOS-NanoDegree";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1FD9FBC725C8A14900745C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVA5U2HB2L;
+				INFOPLIST_FILE = "On The Map - Udacity iOS NanoDegree/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewfolbigg.On-The-Map---Udacity-iOS-NanoDegree";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FD9FBAC25C8A14800745C56 /* Build configuration list for PBXProject "On The Map - Udacity iOS NanoDegree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD9FBC325C8A14900745C56 /* Debug */,
+				1FD9FBC425C8A14900745C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FD9FBC525C8A14900745C56 /* Build configuration list for PBXNativeTarget "On The Map - Udacity iOS NanoDegree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD9FBC625C8A14900745C56 /* Debug */,
+				1FD9FBC725C8A14900745C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FD9FBA925C8A14800745C56 /* Project object */;
+}
